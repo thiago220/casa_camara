@@ -68,15 +68,7 @@
                                 </li> 
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?= get_site_url() . "/blog" ?>">Blog</a>
-                                </li>
-                                <li class="nav-item dropdown">                                    
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Parceiros</a>   
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" target="_blank" href="https://www.instagram.com/chez.douglas/"><i class="fa fa-instagram"></i>  chez.douglas</a>
-                                        <a class="dropdown-item" target="_blank" href="https://www.instagram.com/acaso85ouropreto/"><i class="fa fa-instagram"></i>  acaso85ouropreto</a>
-                                        <a class="dropdown-item" target="_blank" href="https://www.instagram.com/nuhous/"><i class="fa fa-instagram"></i>  nuhous</a>                                  
-                                    </div>
-                                </li> 
+                                </li>                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?= get_site_url() . "/contato" ?>">Contato</a>
                                 </li>

@@ -1,0 +1,452 @@
+/*
+    Theme Name: Casa Câmara
+    Author: Thiago Souza Dias
+    Author URI: https://www.facebook.com/thiagodiasjor/
+    Description: Design criado para uso da Casa Câmara, Rodrigo Câmara e Studio Futon.
+    Version: 1.0
+    License: Comercial
+    Text Domain: casacamara
+*/
+
+@font-face {
+    font-family: CasaCamara;
+    src: url('fonts/upcil.ttf');
+}
+
+@font-face {
+    font-family: MarcaCasaCamara;
+    src: url('fonts/COPRGTL.TTF');
+}
+
+html
+{
+    font-size: 15px;
+}
+
+body
+{
+    background-color: #000000;
+    color: #db9000;
+    font-family: CasaCamara;
+    font-size: 1.8rem;
+}
+
+.grafia-casa-camara, .marca-menu
+{
+    display: inline-block;
+    font-family: MarcaCasaCamara;
+}
+
+.tooltip > .tooltip-inner, .tooltip > .tooltip-arrow 
+{
+    background-color: #1c1c1c; color: #db9000;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #1c1c1c; /* Red */
+}
+
+#sidebar_right
+{
+    border-left: 1px solid black;
+}
+
+#main {
+    margin-bottom: 50px;
+}
+
+#carouselSliderBanner .carousel-item {
+    height: 50vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#carouselSliderBanner .carousel-caption
+{
+    left: auto;
+    right: auto;
+    color: #db9000;
+    bottom: 45px;
+}
+
+#carouselSliderBanner .carousel-caption h2
+{
+    font-size: 2rem;
+    font-style: normal;
+}
+
+#carouselControls .carousel-control-next,#carouselControls .carousel-control-prev
+{
+    width: 5%;
+}
+
+#carouselControls .carousel-indicators li
+{
+    background-color: #db9000
+}
+
+a {
+    color: #db9000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a26b00;
+    text-decoration: none;
+}
+
+.navbar {
+    position: relative;
+    color: #db9000;
+}
+
+.menu-principal
+{
+    font-size: 1.5rem;  
+}
+
+.menu-principal .dropdown-menu
+{
+    background: #1c1c1c;   
+    font-size: 1.5rem;  
+}
+
+.menu-principal .dropdown-menu a
+{
+    color: #db9000;
+}
+
+.menu-principal .dropdown-menu a:hover
+{
+    color: #000000;
+    background: #db9000;
+}
+
+.menu-ret .navbar-toggler {
+  border-color: #db9000;
+} 
+
+.dropdown-toggle::after
+{
+    vertical-align: 0;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+}
+
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.btn-search,  .menu-icon
+{
+    background-color: #db9000;    
+}
+
+.input-search
+{
+    background-color: #ffd884;
+}
+
+.navbar-nav a
+{
+    color: #db9000;
+}
+
+.navbar-nav a:hover
+{
+    color: #ffd884;
+}
+
+.card-text
+{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+a img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail
+{
+    border: 3px solid #db9000;
+    border-radius: 2px;
+}
+
+.blog-cabecalho {
+    background: url("images/bg-cabecalho-blog.jpg") center !important;
+    background-size: cover;
+}
+
+a:hover img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail
+{
+    border: 3px solid #ffd884;
+}
+
+.wp-block-button__link
+{
+    font-size: 1.2rem;
+    padding: 0px 10px;
+}
+
+.wc-block-grid__product-link,a h2.woocommerce-loop-product__title, a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover
+{
+    color: #db9000;
+    text-decoration: none;
+}
+
+.wc-block-grid__product-link:hover,a:hover h2.woocommerce-loop-product__title
+{
+    color: #ffd884;
+    text-decoration: none;
+}
+
+a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart, a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart
+{
+    border-radius: 0;
+    background-color: #db9000;
+    margin: 10px;
+    color: #000;
+}
+
+a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover, a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover
+{
+    background-color: #ffd884;
+}
+
+div.summary.entry-summary
+{
+    padding: 10px 0;
+}
+
+.woocommerce div.product .product_title
+{
+    font-size: 2.5rem;
+}
+
+.woocommerce-message
+{
+    margin-top: 15px;
+    background-color: #000000;
+    color: #ffd884;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active, div.woocommerce-Tabs-panel 
+{
+    background-color: #ffd884;
+    color: #000000;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active
+{
+    border-bottom: #ffd884;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before
+{
+    border-bottom: 1px solid #ffd884;
+}
+
+div.woocommerce-Tabs-panel
+{
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before
+{
+    height: 0;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel
+{
+    padding: 10px;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs
+{
+    margin: 0;
+} 
+
+li.product.type-product.status-publish
+{
+    text-align: center;
+}
+
+footer h2
+{
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+
+footer ul
+{
+    list-style: none;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+.separador
+{
+    background-color: #a26b00;
+    height: 15px;
+    width: 100%;
+}
+
+.banner-sf
+{
+    background: linear-gradient(to right, transparent , black), url('images/studio_futon.jpg');
+    background-size: cover;
+}
+
+.home-page h2
+{
+    font-size: 1.4rem;
+}
+
+.wp-block-separator
+{
+    height: 0.1rem;
+    margin: 0.45rem;
+}
+
+.menu-expand
+{
+    line-height: 60px;
+}
+
+.menu-expand a
+{
+    font-size: 1.5rem;
+    color: #db9000;
+    text-decoration: none;
+}
+
+.menu-expand a:hover
+{
+    font-weight: 700;
+}
+
+/* Woocommerce */
+.woocommerce-MyAccount-navigation ul
+{
+    list-style: none;
+}
+
+.woocommerce-MyAccount-navigation a
+{
+    text-decoration: none;
+    color: #db9000;
+}
+
+.woocommerce-MyAccount-navigation a:hover, .woocommerce-MyAccount-navigation a:visited 
+{
+    font-weight: 700;
+}
+
+/* Rodrigo Câmara */
+.rc
+{
+    color: #ffffff;
+}
+
+.rc a
+{
+    color: #db9000;
+    text-decoration: none;
+}
+
+.rc a:hover
+{
+    font-weight: 700;
+}
+
+/*Blog Info */
+
+.blog-info
+{
+    border: 2px #db9000 solid;
+}
+
+figcaption
+{
+    font-size: 1.4rem;
+}
+.lead
+{
+    font-size: 1.9rem;
+}
+
+.blockquote
+{
+    font-size: 2rem;
+}
+
+.form-control
+{
+    font-size: 1.5rem;
+}
+
+.bg-grey
+{
+    background: #1c1c1c;
+}
+
+/* Player de áudio */
+.mplayer
+{
+    border-radius: 15px 0 0 15px;
+    border: #db9000 outset 2px;
+    border-right: none; 
+    background: #000000;
+}
+
+.mplayer button.music, button.music.active:hover
+{
+    border-radius: 15px 0 0 15px;
+    background: #000000;
+    color: #db9000;
+    border: none;
+}
+
+.mplayer button.music.active, button.music:hover
+{
+    background: #db9000;
+    color: #000000;
+}
+
+.cc-player
+{
+    width: 100%;
+}
+
+.cc-player .player-controls {
+   float: left;
+}
+.cc-player .player-controls span{
+   cursor: pointer;
+   padding: 0 5px;
+   -webkit-transition: all linear 0.2s;
+}
+.cc-player .player-controls span:hover {
+   color: #EEE;
+}
+.cc-player .player-display {
+   float: left;
+   float: right;
+   margin-left: 50px;
+}
+.cc-player .player-display .player-current-track {
+   color: white;
+}
+.cc-player .player {
+   float: left;
+}
